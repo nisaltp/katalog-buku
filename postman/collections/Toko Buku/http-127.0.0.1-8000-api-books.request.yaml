@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/books
+description: ""
+url: http://127.0.0.1:8000/api/books
+method: POST
+body:
+  type: json
+  content: '   {"category_id": 1, "title": "Laskar Pelangi", "author": "Andrea Hirata", "price": 89000, "stock": 12}'
+order: 2000

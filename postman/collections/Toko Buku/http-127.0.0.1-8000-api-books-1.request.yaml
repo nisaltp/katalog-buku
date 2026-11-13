@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/books/1
+description: ""
+url: http://127.0.0.1:8000/api/books/1
+method: PUT
+body:
+  type: json
+  content: "{\"stock\": 15}\r\n"
+order: 1000
